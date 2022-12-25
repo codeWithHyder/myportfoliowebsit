@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/085384e239.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="HYDERPORTFOLIO.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Web Developer</p>
+                <h1>Hi, I'm <span>Hyder</span><br> from Kashmir India</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------About me ------------------------------>
+    <div id="about">
+        <div class="conatainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="aboutme.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, i am Ghulam Hyder from India,very passionate to coding,very flexible to learn new technologies<br>
+                    regarding hobbies , i like Gardening, Book reading,Hiking  </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>UI/UX</span><br>front end Web Developing</li>
+                            <li><span>UI/UX</span><br>App Designing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2015</span><br>Computer Instructor at Skill Development Institute</li>
+                            <li><span>2016 to 2019</span><br>Computer Instructor at Skill Development Institute</li>
+                            <li><span>2022</span><br>Computer Instructor at Skill Development Institute</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        
+                        <ul>
+                            <li><span>MSc IT</span><br>Sikkim Manipal University India</li>
+                            <li><span>Certificate Course</span><br>FrontEnd Web Development From Udemy</li>
+                        
+                        </ul>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    <!------------------------------services----------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores velit officiis neque vero, consequuntur
+                         autem impedit libero temporibus fugit quo enim! Repellat inventore eveniet unde.</p>
+                    <a href="#">Learn More</a>     
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores velit officiis neque vero, consequuntur
+                        autem impedit libero temporibus fugit quo enim! Repellat inventore eveniet unde.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores velit officiis neque vero, consequuntur
+                        autem impedit libero temporibus fugit quo enim! Repellat inventore eveniet unde.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!---------------portfolio---------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="bdayreminder1.png">
+                    <div class="layer">
+                        <h2>Birthday Reminder</h2>
+                        <p>Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, voluptates eveniet assumenda, distinctio quos vel modi atque sapiente voluptatum sed aspernatur quasi! Porro dolorum architecto
+                             ratione dolor repellat consequuntur quos!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="bdayreminder1.png">
+                    <div class="layer">
+                        <h2>Login form</h2>
+                        <p>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam magni ipsum dolorum nesciunt totam quo nemo, accusantium sequi, eum tempora quidem? Sunt id non itaque 
+                            similique perspiciatis animi eius nulla.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="bdayreminder1.png">
+                    <div class="layer">
+                        <h2>Birthday Reminder</h2>
+                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem autem, tempore, saepe est modi reprehenderit nihil minus doloremque minima quidem nulla voluptatem et neque cum cupiditate? 
+                            Voluptates minima optio asperiores?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-------------------contact------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h3 class="sub-title">Contact Me</h3>
+                    <P><i class="fa-solid fa-paper-plane"></i>hyderali400@gmail.com</P>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 8491095780</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" class="btn btn1">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">Copy right <i class="fa-regular fa-copyright"></i> by Hyder ,made by Hyder</div>
+    </div>
+    <script>
+        let tabLinks=document.getElementsByClassName('tab-links');
+        let tabContents=document.getElementsByClassName('tab-contents');
+        function openTab(tabname){
+            for(tablink of tabLinks){
+                tablink.classList.remove("active-link");
+            }
+             for (tabcontent of tabContents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        let sidemenu=document.getElementById("sidemenu");
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxKZlx0_SX1-uVnsovo5mSVOPGOhwRxMVf-uyfygCptEeViiWd-SLiFTTMITn8foktw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg");
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response =>{ msg.innerHTML="Message has been sent successfully";
+                  setTimeout(()=>{
+                    msg.innerHTML="";
+                  },5000)
+                  form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
